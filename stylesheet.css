@@ -1,0 +1,25 @@
+h3 {
+  color: cadetblue;
+}
+
+.importance {
+  color: cadetblue;
+}
+
+#cascading {
+  color: red;
+  color: burlywood;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: blueviolet;
+  border: none;
+  color: aliceblue;
+  height: 50px;
+  width: 50px;
+}
+
+#one {
+  color: rgb(90, 54, 1);
+}
