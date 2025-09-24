@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* built in font */
+/* 
+.text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+} */
+
+/* external font */
+.text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 200px;
+  color: brown;
+  text-transform: uppercase;
+  /* text-indent: ; */
+}
+
+.para {
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  line-height: 30px;
+}
+
+body {
+  margin: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+ul {
+  list-style: none;
+}
