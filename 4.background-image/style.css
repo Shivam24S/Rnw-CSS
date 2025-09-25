@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .background {
+  background-image: url("../asset/image.png");
+} */
+
+.background {
+  background-image: url("https://images.pexels.com/photos/5429260/pexels-photo-5429260.jpeg");
+
+  height: 800px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

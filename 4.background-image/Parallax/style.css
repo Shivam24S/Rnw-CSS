@@ -1,0 +1,15 @@
+.content {
+  height: 600px;
+  background-color: transparent;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.background {
+  background-image: url("https://images.pexels.com/photos/31891237/pexels-photo-31891237.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+}
