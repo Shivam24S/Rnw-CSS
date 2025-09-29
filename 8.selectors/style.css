@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div,
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+div > p {
+  color: red;
+}
+
+p::first-letter {
+  color: blue;
+  font-size: 50px;
+}
+
+div::first-line {
+  color: blueviolet;
+}
+
+ul li:first-child {
+  color: cadetblue;
+}
+
+ul li:last-child {
+  color: chartreuse;
+}
+
+ul li:nth-child(2) {
+  text-decoration: underline;
+}
+
+h1::selection {
+  color: blue;
+}
