@@ -2,39 +2,44 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  margin: 50px;
 }
 
-div,
+/* div p {
+  color: blueviolet;
+} */
+
+/* div,
 p {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
+  color: blueviolet;
+} */
 
 div > p {
-  color: red;
-}
-
-p::first-letter {
-  color: blue;
-  font-size: 50px;
-}
-
-div::first-line {
   color: blueviolet;
 }
 
-ul li:first-child {
-  color: cadetblue;
+p::first-letter {
+  font-size: 50px;
+  color: brown;
 }
 
-ul li:last-child {
+div::first-line {
   color: chartreuse;
 }
 
-ul li:nth-child(2) {
+ul li:first-child {
+  color: crimson;
+}
+
+ul li:last-child {
   text-decoration: underline;
 }
 
+ul li:nth-child(3) {
+  font-size: 30px;
+}
+
 h1::selection {
-  color: blue;
+  color: cadetblue;
+  background-color: darkmagenta;
 }

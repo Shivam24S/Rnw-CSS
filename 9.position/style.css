@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: gray;
+  height: 400px;
+  width: 400px;
+  margin: 200px;
+  /* height: 90vh; */
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.green {
+  background-color: green;
+  position: relative;
+  top: 50px;
+  left: 60px;
+  right: 100px;
+  bottom: 10px;
+  z-index: 1;
+}
+
+.blue {
+  background-color: blue;
+  position: absolute;
+  /* top: 50px; */
+  bottom: 20px;
+}
+
+.yellow {
+  background-color: yellow;
+  position: fixed;
+  top: 50px;
+}
+
+.red {
+  background-color: red;
+  position: sticky;
+  top: 50px;
+  z-index: 2;
+}
+
+.parent {
+  height: 1600px;
+  width: 800px;
+  border: 2px dotted gray;
+  position: relative;
+}
