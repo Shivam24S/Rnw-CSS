@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 200px;
+}
+
+.container {
+  height: 600px;
+  width: 600px;
+  background-color: gray;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+  /* transform: rotate(45deg); */
+  /* transform: rotateX(10deg); */
+
+  /* transform: skew(50deg); */
+  /* transform: skewX(30deg);
+  transform: skewY(45deg); */
+
+  /* transform: scale(2); */
+  /* transform: scaleX(2); */
+  /* transform: scaleY(2); */
+
+  /* transform: translateX(450px); */
+  /* transform: translateY(500px); */
+
+  transition-duration: 1s;
+  transition-delay: 1s;
+  /* transition-property: background-color; */
+  /* transition-property: transform; */
+  transition-timing-function: ease;
+}
+/* 
+.container:hover {
+  background-color: aquamarine;
+  height: 300px;
+} */
+
+.box:hover {
+  background-color: chartreuse;
+  transform: skew(45deg);
+}
