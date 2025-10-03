@@ -11,14 +11,36 @@
   margin: 50px;
   display: flex;
   /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-  /* justify-content: center; */
+  flex-wrap: wrap;
+  justify-content: center;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
+  /* align-content: center; */
+  /* flex-flow: wrap row; */
 }
 
 .box {
   height: 100px;
   width: 100px;
   border: 1px dotted red;
+}
+
+#box-5 {
+  order: 1;
+}
+
+#box-7 {
+  order: 2;
+}
+
+#box-4 {
+  flex-grow: 2;
+}
+
+#box-4 {
+  flex-shrink: 3;
+}
+#box-3 {
+  align-self: flex-start;
 }
