@@ -19,6 +19,12 @@
   /* justify-content: center; */
   /* align-items: center;
   align-content: end; */
+
+  grid-template-areas:
+    "header header header header"
+    "sidebar main main main"
+    "sidebar main main main"
+    "footer footer footer footer";
 }
 
 .box {
@@ -27,27 +33,21 @@
 }
 
 #box-1 {
+  grid-area: header;
   background-color: aquamarine;
-  /* grid-column-start: 1;
-  grid-column-end: 3; */
-  grid-column: 1/5;
-  /* grid-column: 1/-1; */
 }
 
 #box-2 {
+  grid-area: sidebar;
   background-color: blueviolet;
-  /* grid-row-start: 2;
-  grid-row-end: 5; */
-  grid-row: 2/5;
 }
 
-#box-10 {
-  background-color: maroon;
-  grid-column: 1/-1;
-}
-
-#box-9 {
+#box-3 {
+  grid-area: main;
   background-color: cadetblue;
-  grid-column: 2/5;
-  /* align-self: center; */
+}
+
+#box-4 {
+  grid-area: footer;
+  background-color: chocolate;
 }
