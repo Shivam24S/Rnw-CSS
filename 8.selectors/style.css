@@ -14,14 +14,14 @@ p {
   color: blueviolet;
 } */
 
-div > p {
+/* div > p {
   color: blueviolet;
-}
+} */
 
-p::first-letter {
+/* p::first-letter {
   font-size: 50px;
   color: brown;
-}
+} */
 
 div::first-line {
   color: chartreuse;
@@ -39,7 +39,12 @@ ul li:nth-child(3) {
   font-size: 30px;
 }
 
-h1::selection {
+/* h1::selection {
+  color: cadetblue;
+  background-color: darkmagenta;
+} */
+
+p::selection {
   color: cadetblue;
   background-color: darkmagenta;
 }
