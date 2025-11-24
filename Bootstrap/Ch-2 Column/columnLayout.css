@@ -1,26 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.container {
+  border: 2px solid black;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.col,
+.row,
+.col-md-4,
+.col-md-8 {
+  border: 1px solid black;
 }
 
 ul {
   display: flex;
   gap: 50px;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
 }
 
 li {
   list-style: none;
-}
-
-.container {
-  border: 2px solid black;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.col {
-  border: 1px solid black;
 }
