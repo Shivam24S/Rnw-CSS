@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid black;
+  height: 900px;
+  width: 1200px;
+}
+
+.row {
+  border: 2px solid rgb(255, 0, 0);
+  height: 300px;
+  width: 1200px;
+}
+
+.col-md-2 {
+  border: 1px solid rgb(17, 0, 255);
+}
