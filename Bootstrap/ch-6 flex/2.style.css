@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid black;
+}
+
+.row {
+  height: 900px;
+}
+
+.col-md-3 {
+  height: 200px;
+}
