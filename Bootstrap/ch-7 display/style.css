@@ -8,3 +8,9 @@
   border: 2px solid palegreen;
   height: 900px;
 }
+
+.div {
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+}

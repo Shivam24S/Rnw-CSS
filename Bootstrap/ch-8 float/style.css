@@ -1,0 +1,15 @@
+.container {
+  border: 2px solid black;
+}
+
+.row {
+  height: 300px;
+  width: 900px;
+  border: 2px solid salmon;
+}
+
+.col {
+  height: 100px;
+  width: 300px;
+  border: 2px solid rgb(8, 172, 43);
+}
