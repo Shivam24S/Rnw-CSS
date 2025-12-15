@@ -1,69 +1,102 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-     
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-body{
-    background-color: #212529;
-    color: white;
-    font-family: "Open Sans", sans-serif;
+body {
+  background-color: #212529;
+  color: white;
+  font-family: "Open Sans", sans-serif;
 }
 
-
-
-
-.carousel-item img{
-    height: 90vh;
-    width: 100%;
-    object-fit: cover;
-    
+hr,.navbar-toggler,.nav-link {
+  color: #0d6efd;
 }
 
-.carousel-caption h5{
-    font-size: 3rem;
+.navbar-toggler-icon{
+    background-color: #0d6efd;
 }
 
-.carousel-caption,.nav-link{
-      color: white; 
+.accordion button::after {
+     background-color: #0d6efd;
 }
 
-.about-card{
-    color: white;
-    background-color: #212529;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+.nav-link:hover {
+  background-color: #0d6efd;
+  border-radius: 20px;
+  transition: all 1s ease-in;
 }
 
-.card{
-    background-color:#212529;
-    color: white;
-    overflow: auto;
-    margin: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-   
+.carousel-item img {
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
 }
 
-.card-body{
-    text-align: center;
+.carousel-caption h5 {
+  font-size: 3rem;
 }
 
-.testimonials{
-    height: 250px;
-    width: 250px;
-    
+.carousel-caption,
+.nav-link {
+  color: white;
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.about-card {
+  color: white;
+  background-color: #212529;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
+.card {
+  background-color: #212529;
+  color: white;
+  overflow: auto;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
+.card:hover {
+  scale: 1.1;
+  transition: all 1s ease-in;
+  box-shadow: 0 15px 40px #0d6efd;
+  border-color: rgba(99, 102, 241, 0.4);
+}
+
+.card-body {
+  text-align: center;
+}
+
+.testimonials {
+  width: 280px;
+  height: 280px;
+}
+
+.testimonials:hover {
+  transition: all 1s ease-in;
+  box-shadow: 0 15px 40px #0d6efd;
+  border-color: rgba(99, 102, 241, 0.4);
+}
+
+form:hover{
+  transition: all 1s ease-in;
+  box-shadow: 0 15px 40px #0d6efd;
+  border-color: rgba(99, 102, 241, 0.4);
+ 
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+   padding: 10px;
 }
 
 .social {
-    font-size: 3vh;
+  font-size: 3vh;
 }
