@@ -1,0 +1,41 @@
+:root {
+  --bg-primary: #0b0f14;
+  --bg-secondary: #111827;
+
+  --text-primary: #e5e7eb;
+  --text-muted: #9ca3af;
+
+  --accent-primary: #22c55e;
+  --accent-secondary: #16a34a;
+
+  --border-color: #1f2933;
+
+  --background-color:rgba(233, 233, 233, 0.336)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: white
+}
+
+.navbar {
+  border-radius: 20px;
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+  background-color:var(--background-color)
+}
+
+.navbar-brand{
+    color: var(--accent-primary);
+}
+
+.nav-item a {
+  color: var(--accent-primary);
+  font-size: 1rem;
+}
+
