@@ -10,6 +10,13 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -90,15 +97,56 @@
     <main>
       <section id="hero">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h1>Hey, I’m Shivam Shrivastav</h1>
-              <h5>Software Engineer & Fullstack Developer</h5>
-              <p>
+          <div class="row align-items-center m-4">
+            <div class="col-md-6 d-flex flex-column gap-4">
+              <h1 class="display-5">Hey, I’m Shivam Shrivastav</h1>
+              <h4>Software Engineer & Fullstack Developer</h4>
+              <h6>
                 I develop full-stack applications using modern JavaScript
                 frameworks, scalable backend systems, and optimized databases.
                 Focused on performance, security, and clean architecture.
-              </p>
+              </h6>
+              <a
+                class="btn btn-success resume-btn align-self-start"
+                href="./asset/Simple_Software_Engineer_Resume.pdf"
+                download
+                target="_blank"
+              >
+                Download Resume
+              </a>
+
+              <div class="social-link d-flex gap-2 mt-3">
+                <i class="fa-brands fa-linkedin social"></i>
+                <i class="fa-brands fa-github social"></i>
+                <i class="fa-brands fa-instagram social"></i>
+                <i class="fa-brands fa-x-twitter social"></i>
+              </div>
+            </div>
+
+            <div class="col-md-6 p-4">
+              <img
+                src="./asset/profilePic2png.png"
+                alt="profile-pic"
+                class="profile-pic rounded float-end img-fluid"
+                style="width: 300px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container">
+          <div class="section-heading d-flex justify-content-center align-items-center flex-column">
+            <div class="display-3">About</div>
+            <img
+              class="img-fluid curly-waves"
+              src="./asset/curlywaves.svg"
+              alt="curly-wave"
+            />
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="" alt="">
             </div>
             <div class="col-md-6"></div>
           </div>

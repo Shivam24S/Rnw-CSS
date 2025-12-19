@@ -10,7 +10,7 @@
 
   --border-color: #1f2933;
 
-  --background-color:rgba(233, 233, 233, 0.336)
+  --background-color: rgba(233, 233, 233, 0.336);
 }
 
 * {
@@ -21,17 +21,17 @@
 
 body {
   background-color: #000000;
-  color: white
+  color: white;
 }
 
 .navbar {
   border-radius: 20px;
   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
-  background-color:var(--background-color)
+  background-color: var(--background-color);
 }
 
-.navbar-brand{
-    color: var(--accent-primary);
+.navbar-brand {
+  color: var(--accent-primary);
 }
 
 .nav-item a {
@@ -39,3 +39,21 @@ body {
   font-size: 1rem;
 }
 
+.resume-btn {
+  background-color: #16a34a;
+  box-shadow: #4f4f4f 1.95px 1.95px 2.6px;
+}
+
+.profile-pic {
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+}
+
+.social {
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+  font-size: 2rem;
+  border-radius: 50px;
+}
+.curly-waves{
+  width: 10vw;
+  /* display: block; */
+}
