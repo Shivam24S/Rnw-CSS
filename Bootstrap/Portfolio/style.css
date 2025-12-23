@@ -6,6 +6,7 @@
   --text-muted: #9ca3af;
 
   --accent-primary: #22c55e;
+  /* --accent-primary: #3067ff; */
   --accent-secondary: #16a34a;
 
   --border-color: #1f2933;
@@ -21,6 +22,7 @@
 
 body {
   background-color: #000000;
+  /* background-color: rgba(0, 0, 0, 0.959); */
   color: white;
 }
 
@@ -41,6 +43,7 @@ body {
 
 .resume-btn {
   background-color: #16a34a;
+  /* background-color: #3067ff; */
   box-shadow: #4f4f4f 1.95px 1.95px 2.6px;
 }
 
@@ -54,6 +57,32 @@ body {
   border-radius: 50px;
 }
 .curly-waves{
-  width: 10vw;
-  /* display: block; */
+  width: 200px;
+}
+.about-pic{
+  max-width: 350px;
+   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+}
+
+.about-card{
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+  background-color: var(--background-color);
+  color: var(--text-primary);
+  
+}
+
+.about-subtitle{
+  color: black
+}
+
+.skills{
+  background-color: #000000;
+  color: white;
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+  max-height:50vh;
+  max-width: 200px;
+}
+
+.skills img{
+  height: 5rem;
 }
