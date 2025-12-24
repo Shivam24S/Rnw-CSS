@@ -66,12 +66,12 @@
                         Portfolio
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">HTML</a></li>
+                        <li><a class="dropdown-item" href="#pills-FrontEnd-tab">FrontEnd</a></li>
                         <li>
-                          <a class="dropdown-item" href="#">CSS</a>
+                          <a class="dropdown-item" href="#pills-Backend-tab">BackEnd</a>
                         </li>
                         <li>
-                          <a class="dropdown-item" href="#">React</a>
+                          <a class="dropdown-item" href="#pills-Fullstack-tab">FullStack</a>
                         </li>
                       </ul>
                     </li>
@@ -518,98 +518,179 @@
               >
                 <li class="nav-item" role="presentation">
                   <button
-                    class="nav-link active"
-                    id="pills-home-tab"
+                    class="nav-link active nav-tab-btn"
+                    id="pills-FrontEnd-tab"
                     data-bs-toggle="pill"
-                    data-bs-target="#pills-home"
+                    data-bs-target="#pills-FrontEnd"
                     type="button"
                     role="tab"
-                    aria-controls="pills-home"
+                    aria-controls="pills-FrontEnd"
                     aria-selected="true"
                   >
-                    Home
+                    FrontEnd
                   </button>
                 </li>
                 <li class="nav-item" role="presentation">
                   <button
-                    class="nav-link"
-                    id="pills-profile-tab"
+                    class="nav-link nav-tab-btn"
+                    id="pills-Backend-tab"
                     data-bs-toggle="pill"
-                    data-bs-target="#pills-profile"
+                    data-bs-target="#pills-Backend"
                     type="button"
                     role="tab"
-                    aria-controls="pills-profile"
+                    aria-controls="pills-Backend"
                     aria-selected="false"
                   >
-                    Profile
+                    Backend
                   </button>
                 </li>
                 <li class="nav-item" role="presentation">
                   <button
-                    class="nav-link"
-                    id="pills-contact-tab"
+                    class="nav-link nav-tab-btn"
+                    id="pills-Fullstack-tab"
                     data-bs-toggle="pill"
-                    data-bs-target="#pills-contact"
+                    data-bs-target="#pills-Fullstack"
                     type="button"
                     role="tab"
-                    aria-controls="pills-contact"
+                    aria-controls="pills-Fullstack"
                     aria-selected="false"
                   >
-                    Contact
-                  </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button
-                    class="nav-link"
-                    id="pills-disabled-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-disabled"
-                    type="button"
-                    role="tab"
-                    aria-controls="pills-disabled"
-                    aria-selected="false"
-                    disabled
-                  >
-                    Disabled
+                    Fullstack
                   </button>
                 </li>
               </ul>
               <div class="tab-content" id="pills-tabContent">
                 <div
                   class="tab-pane fade show active"
-                  id="pills-home"
+                  id="pills-FrontEnd"
                   role="tabpanel"
-                  aria-labelledby="pills-home-tab"
+                  aria-labelledby="pills-FrontEnd-tab"
                   tabindex="0"
                 >
-                  1
+                  <div class="container">
+                    <div class="row d-flex gap-5 mt-5 justify-content-center align-items-center">
+                      <div class="col-md-5">
+                        <div class="card project-card">
+                          <img
+                            src="./asset/projects/quickRead.png"
+                            class="card-img-top"
+                            alt="quickread"
+                          />
+                          <div class="card-body text-center">
+                            <h6>Quick Reads AI</h6>
+                            <p class="card-text">
+                              Built a smart blog app using MERN stack, TanStack
+                              Query, Tailwind CSS, DaisyUI, and Redux Toolkit.
+                              Integrated Facebook BART for AI-generated blog
+                              summaries with toggle view. Secured with JWT auth,
+                              profile CRUD via Multer, and Cloudinary for media
+                              uploads.
+                            </p>
+                            <a
+                              href="https://quickreadsai.netlify.app/"
+                              class="btn btn-success"
+                              >Visit Website</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-5">
+                        <div class="card project-card">
+                          <img
+                            src="./asset/projects/event.png"
+                            class="card-img-top"
+                            alt="event"
+                          />
+                          <div class="card-body text-center">
+                            <h6>Event Organize</h6>
+                            <p class="card-text">
+                              The Event Organize App is a sophisticated web
+                              application developed using React.js and the
+                              Tanstack, specifically React Query, for efficient
+                              data management and API communication. This
+                              application serves as a comprehensive platform for
+                              users to plan, organize, and manage various events
+                              seamlessly.
+                            </p>
+                            <a
+                              href="https://event-organize.netlify.app/"
+                              class="btn btn-success"
+                              >Visit Website</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-5">
+                        <div class="card project-card">
+                          <img
+                            src="./asset/projects/quiz.png"
+                            class="card-img-top"
+                            alt="quiz"
+                          />
+                          <div class="card-body text-center">
+                            <h6>Quiz App</h6>
+                            <p class="card-text">
+                              The Quiz Master (Quiz App) is a web application
+                              developed using React.js, designed to provide
+                              users with an interactive platform to test their
+                              knowledge through multiple-choice questions. The
+                              app offers a smooth and engaging quiz-taking
+                              experience
+                            </p>
+                            <a
+                              href="https://event-organize.netlify.app/"
+                              class="btn btn-success"
+                              >Visit Website</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-5">
+                        <div class="card project-card">
+                          <img
+                            src="./asset/projects/foodie.png"
+                            class="card-img-top"
+                            alt="foodie"
+                          />
+                          <div class="card-body text-center">
+                            <h6>Foodie Fiesta</h6>
+                            <p class="card-text">
+                              The Foodie-Fiesta (Food Order App) is a web
+                              application developed using React.js, leveraging
+                              the power of the React Context API for state
+                              management and organization. This application
+                              serves as a convenient platform for users to
+                              browse through various food items and place
+                              orders.
+                            </p>
+                            <a
+                              href="https://foodiefiesta.netlify.app/"
+                              class="btn btn-success"
+                              >Visit Website</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div
                   class="tab-pane fade"
-                  id="pills-profile"
+                  id="pills-Backend"
                   role="tabpanel"
-                  aria-labelledby="pills-profile-tab"
+                  aria-labelledby="pills-Backend-tab"
                   tabindex="0"
                 >
                   2
                 </div>
                 <div
                   class="tab-pane fade"
-                  id="pills-contact"
+                  id="pills-Fullstack"
                   role="tabpanel"
-                  aria-labelledby="pills-contact-tab"
+                  aria-labelledby="pills-Fullstack-tab"
                   tabindex="0"
                 >
                   3
-                </div>
-                <div
-                  class="tab-pane fade"
-                  id="pills-disabled"
-                  role="tabpanel"
-                  aria-labelledby="pills-disabled-tab"
-                  tabindex="0"
-                >
-                  4
                 </div>
               </div>
             </div>

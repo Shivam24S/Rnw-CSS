@@ -86,3 +86,23 @@ body {
 .skills img{
   height: 5rem;
 }
+
+
+.project-card{
+  background-color: #000000;
+  color: white;
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+  border-radius: 20px;
+ 
+}
+
+.project-card img{
+    border-radius: 20px;
+
+}
+
+.nav-tab-btn{
+  color: white;
+  border-radius: 20px !important;
+ 
+}
