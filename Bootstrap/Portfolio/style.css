@@ -132,6 +132,20 @@ body {
   align-items: center;
 }
 
+.service-card{
+  /* background-color: var(--border-color); */
+  background-color: #4F4F4F;
+  color: white;
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+  border-radius: 20px;
+}
+
+
+.service-card img{
+ height: 200px;
+width:200px;
+  border-radius: 20px;
+}
 
 
 
