@@ -56,53 +56,82 @@ body {
   font-size: 2rem;
   border-radius: 50px;
 }
-.curly-waves{
+.curly-waves {
   width: 200px;
 }
-.about-pic{
+.about-pic {
   max-width: 350px;
-   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
 }
 
-.about-card{
+.about-card {
   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
   background-color: var(--background-color);
   color: var(--text-primary);
-  
 }
 
-.about-subtitle{
-  color: black
+.about-subtitle {
+  color: black;
 }
 
-.skills{
+.skills {
   background-color: #000000;
   color: white;
   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
-  max-height:50vh;
+  max-height: 50vh;
   max-width: 200px;
 }
 
-.skills img{
+.skills img {
   height: 5rem;
 }
 
-
-.project-card{
+.project-card {
   background-color: #000000;
   color: white;
   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
   border-radius: 20px;
- 
 }
 
-.project-card img{
-    border-radius: 20px;
-
+.project-card img {
+  border-radius: 20px;
 }
 
-.nav-tab-btn{
+.nav-tab-btn {
   color: white;
   border-radius: 20px !important;
- 
 }
+
+/* swiper slider  */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.testimonial{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
