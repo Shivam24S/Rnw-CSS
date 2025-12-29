@@ -5,13 +5,16 @@
   --text-primary: #e5e7eb;
   --text-muted: #9ca3af;
 
-  --accent-primary: #22c55e;
-  /* --accent-primary: #3067ff; */
+  /* --accent-primary: #22c55e; */
+  /* --accent-primary: #5784ff; */
+  --accent-primary: #58C4DC;
   --accent-secondary: #16a34a;
 
   --border-color: #1f2933;
 
-  --background-color: rgba(233, 233, 233, 0.336);
+  /* --background-color: rgba(233, 233, 233, 0.336); */
+  /* --background-color: #181A20; */
+  --background-color: #23272F;
 }
 
 * {
@@ -21,8 +24,8 @@
 }
 
 body {
-  background-color: #000000;
-  /* background-color: rgba(0, 0, 0, 0.959); */
+  /* background-color: #000000; */
+  background-color: rgba(0, 0, 0, 0.959);
   color: white;
 }
 
@@ -42,8 +45,8 @@ body {
 }
 
 .resume-btn {
-  background-color: #16a34a;
-  /* background-color: #3067ff; */
+  /* background-color: #16a34a; */
+  background-color: #3067ff;
   box-shadow: #4f4f4f 1.95px 1.95px 2.6px;
 }
 
@@ -125,27 +128,28 @@ body {
   object-fit: cover;
 }
 
-.testimonial{
+.testimonial {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.service-card{
+.service-card {
   /* background-color: var(--border-color); */
-  background-color: #4F4F4F;
+  background-color: #4f4f4f;
   color: white;
   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
   border-radius: 20px;
 }
 
-
-.service-card img{
- height: 200px;
-width:200px;
+.service-card img {
+  height: 200px;
+  width: 200px;
   border-radius: 20px;
 }
 
-
-
+.form {
+  padding: 1rem;
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+}
