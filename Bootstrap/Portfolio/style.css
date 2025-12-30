@@ -46,12 +46,17 @@ body {
 
 .resume-btn {
   /* background-color: #16a34a; */
-  background-color: #3067ff;
+  background-color: var(--background-color);
   box-shadow: #4f4f4f 1.95px 1.95px 2.6px;
 }
 
 .profile-pic {
   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+  max-width: 300px;
+}
+
+.progress-bar {
+  background-color:#397f8f
 }
 
 .social {
@@ -69,16 +74,16 @@ body {
 
 .about-card {
   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
-  background-color: var(--background-color);
+  background-color: var(--bg-primary);
   color: var(--text-primary);
 }
 
-.about-subtitle {
-  color: black;
+.card-subtitle {
+  color:#58C4DC !important;
 }
 
 .skills {
-  background-color: #000000;
+  background-color:var(--bg-primary);
   color: white;
   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
   max-height: 50vh;
@@ -90,7 +95,7 @@ body {
 }
 
 .project-card {
-  background-color: #000000;
+  background-color:var(--bg-primary);
   color: white;
   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
   border-radius: 20px;
@@ -137,7 +142,7 @@ body {
 
 .service-card {
   /* background-color: var(--border-color); */
-  background-color: #4f4f4f;
+  background-color: var(--bg-primary);
   color: white;
   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
   border-radius: 20px;
