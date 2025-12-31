@@ -1,21 +1,31 @@
-:root {
-  --bg-primary: #0b0f14;
-  --bg-secondary: #111827;
 
-  --text-primary: #e5e7eb;
+
+
+:root {
+  --bg-main: #0b0f14;
+  --bg-card: #111827;
+  --bg-navbar: #23272f;
+
+  --text-main: #e5e7eb;
   --text-muted: #9ca3af;
 
-  /* --accent-primary: #22c55e; */
-  /* --accent-primary: #5784ff; */
-  --accent-primary: #58C4DC;
-  --accent-secondary: #16a34a;
-
+  --accent: #58c4dc;
   --border-color: #1f2933;
-
-  /* --background-color: rgba(233, 233, 233, 0.336); */
-  /* --background-color: #181A20; */
-  --background-color: #23272F;
 }
+
+
+[data-theme="light"] {
+  --bg-main: #f8f9fa;
+  --bg-card: #ffffff;
+  --bg-navbar: #ffffff;
+
+  --text-main: #212529;
+  --text-muted: #6c757d;
+
+  --accent: #0dcaf0;
+  --border-color: #dee2e6;
+}
+
 
 * {
   margin: 0;
@@ -24,15 +34,15 @@
 }
 
 body {
-  /* background-color: #000000; */
-  background-color: rgba(0, 0, 0, 0.959);
-  color: white;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar {
+ background-color: var(--bg-navbar);
   border-radius: 20px;
-  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
-  background-color: var(--background-color);
+  box-shadow: var(--accent) 1.95px 1.95px 2.6px;
 }
 
 .navbar-brand {
@@ -162,3 +172,19 @@ body {
   padding: 1rem;
   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
 }
+
+
+.card,
+.about-card,
+.skills,
+.project-card,
+.service-card {
+  background-color: var(--bg-card);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+}
+
+.text-body-secondary {
+  color: var(--text-muted) !important;
+}
+
