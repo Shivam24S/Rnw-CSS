@@ -146,11 +146,15 @@ body {
   color: white;
   box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
   border-radius: 20px;
+  
 }
 
 .service-card img {
-  height: 200px;
-  width: 200px;
+  /* height: 200px;
+  width: 200px; */
+  height: 100%;
+  width: 100%;
+  
   border-radius: 20px;
 }
 
